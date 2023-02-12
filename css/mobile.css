@@ -1,0 +1,47 @@
+@media screen and (min-width:480px) {
+    .container{
+        max-width: 480px;
+       
+    } 
+
+    /*Hero*/
+.hero{
+    padding: 118px 0;
+    height: 400px;
+}
+
+h1 {
+    
+    font-size: 26px;
+    line-height: 1.6;
+    
+    
+}
+
+    /* Прихований заголовок */
+    .text{
+        width: 100%;
+    }
+
+    .icons{
+        width: 100%;
+    }
+
+    .title{
+        width: 270px;
+        height: 16px; 
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .style{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    /* Чим ми займаємся прихований розділ */
+    .mob-tab{
+        overflow: hidden;
+    }
+}
