@@ -4,7 +4,7 @@
         
     }
 
-    /*Hero*/
+    /*------ Hero -------*/
 .hero{
     padding: 118px 0;
     height: 400px;
@@ -19,7 +19,7 @@ h1 {
 }
 
 
-    /* Прихований заголовок */
+    /*------- Прихований заголовок -------*/
     .text{
         width: 354px;
         text-align: left;
@@ -34,10 +34,17 @@ h1 {
         display: flex; 
         width: calc(100% - 30px)/2;
         flex-wrap: wrap; 
-        gap: 30px;   
+        gap: 30px;  
+        margin-bottom: 30px; 
+    }
+    .icons{
+        height: 120px;
     }
 
-    /* Наша команда */
+    .style{
+        margin-bottom: 0;
+    }
+    /*------- Наша команда -------*/
     .list-team{
         display: flex; 
         width: calc(100% - 30px)/ 2;
@@ -49,6 +56,14 @@ h1 {
         width: 354px; 
     }
 
+    /* ------- Постійні клієнти -------*/
+    .clients-item{
+        width: 226px;
+        width: calc(100% - 60px)/ 3;
+    }
+    
+
+    
     
         
     

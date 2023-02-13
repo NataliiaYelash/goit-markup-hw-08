@@ -1,6 +1,6 @@
 @media screen and (min-width:480px) {
     .container{
-        max-width: 450px;
+        max-width: 480px;
        
     } 
 
@@ -47,6 +47,7 @@ h1 {
     }
 
     
+    
 
     @media screen and (max-width: 767px){
         .img-photo{
@@ -58,6 +59,12 @@ h1 {
         .img{
             width: 100%;
         }
+
+        .text{
+            width: 450px;
+        }
+
+        
         
     }
     
@@ -68,4 +75,7 @@ h1 {
         width: calc(100% - 30px)/2;
         flex-wrap: wrap;
     }
+
+    .clients-item{
+        width: 210px;}
 }

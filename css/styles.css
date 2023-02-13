@@ -28,7 +28,10 @@ body{
 }
 
 /* Утилиты */
- 
+ul{
+    padding: 0;
+}
+
 .list{
     padding: 0;
     margin: 0;
@@ -348,7 +351,7 @@ h1 {
 
 .icons{
     width: 100%;
-    height: auto;
+    height: 120px;
     display: flex;
     content: "";
     background-color: #F5F4FA;
@@ -357,6 +360,10 @@ h1 {
     justify-content: center;
     align-items: center;
 } 
+
+.style{
+    margin-bottom: 30px;
+}
 
 
 /* Наша команда */
@@ -431,20 +438,26 @@ h1 {
 
 /* Постійні клієнти */
 
-.clients-list{
+ .clients-list{
     list-style: none;
     display: flex;
-    gap: 30px;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
     padding: 0;
     justify-content: center;
-       
-}
+
+    width: calc( 100% - 30px )/2;
+     
+} 
 
 .clients-item{
-    width: 170px;
+    width: auto;
     height: 92px;
     border: 1px solid #AFB1B8 ;
-    border-radius: 4px;
+    border-radius: 4px; 
+
+    width: calc( 100% - 30px )/2;
    
 }
 
@@ -454,8 +467,8 @@ h1 {
     justify-content: center;
     width: 100%;
     height: 100%; 
-    fill: #AFB1B8;  
-    
+    fill: #AFB1B8; 
+   
 }
 
 .clients-link:hover,
