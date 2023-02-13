@@ -1,6 +1,6 @@
 @media screen and (min-width:480px) {
     .container{
-        max-width: 480px;
+        max-width: 450px;
        
     } 
 
@@ -40,8 +40,32 @@ h1 {
         margin-left: 0px;
     }
 
-    /* Чим ми займаємся прихований розділ */
-    .mob-tab{
-        overflow: hidden;
+    /* Наша команда */
+    
+    .list-team{
+        padding: 0;
+    }
+
+    
+
+    @media screen and (max-width: 767px){
+        .img-photo{
+            width: 100%;
+            margin: auto;
+            
+        }
+
+        .img{
+            width: 100%;
+        }
+        
+    }
+    
+
+
+    /* Постійні клієнти */
+    .clients-list{
+        width: calc(100% - 30px)/2;
+        flex-wrap: wrap;
     }
 }

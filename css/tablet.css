@@ -34,9 +34,21 @@ h1 {
         display: flex; 
         width: calc(100% - 30px)/2;
         flex-wrap: wrap; 
-        gap: 30px; 
-       
+        gap: 30px;   
     }
+
+    /* Наша команда */
+    .list-team{
+        display: flex; 
+        width: calc(100% - 30px)/ 2;
+        flex-wrap: wrap; 
+        column-gap: 30px; 
+    }
+
+    .img{
+        width: 354px; 
+    }
+
     
         
     

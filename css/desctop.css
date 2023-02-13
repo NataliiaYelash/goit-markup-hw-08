@@ -1,6 +1,11 @@
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1199px) {
     .container{
         max-width: 1200px;  
+    }
+
+    .section{
+        padding-top: 94px;
+        padding-bottom: 94px;
     }
 
     /*Hero*/
@@ -58,6 +63,19 @@ h1 {
     
     display: flex; 
 }
+
+.img{
+    width: 270px;
+    
+}
+
+/* .img-photo{
+    margin-right: 30px;
+} */
+
+/* .img-photo:last-child{
+    margin-right: 0;
+} */
 }
 
 @media screen and (max-width:1200px){
