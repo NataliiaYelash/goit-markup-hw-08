@@ -32,6 +32,24 @@ ul{
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+
+}
+
+
 .list{
     padding: 0;
     margin: 0;
@@ -64,9 +82,13 @@ ul{
 }
 
 
-/*Site nav*/
+/*------- Site nav -------*/
 
-.nav-header{
+.site-nav{
+    display: none;
+}
+
+/* .nav-header{
     display: flex;
     
 }
@@ -115,12 +137,16 @@ ul{
     width: 100%;
     background-color: var(--accent-color);
     border-radius: 2px;
-}
+} */
 
 
 
-/* Connect-nav */
+/*------- Connect-nav -------*/
+
 .connect-nav{
+    display: none;
+}
+/* .connect-nav{
     display: flex;
     margin-left: auto;
     align-items: center;
@@ -156,10 +182,10 @@ ul{
 .header-contact-icon:focus{
     fill: currentColor;
 }
+ */
 
 
-
-/* Функція розподілу часу для анімаціі */
+/*-----------  Функція розподілу часу для анімаціі  -----------*/
 
 .link,
 .socials-link-team,
@@ -174,25 +200,26 @@ li.clients-item
 }
 
 
-/*Hero*/
+/*----------  Hero  -------------*/
 .hero{
     color: var(--primary-white-color);
     
     text-align: center;
     margin-bottom: 0;
-    padding: 200px 0;
+    padding: 118px 0;
 }
 
 h1 {
     color: var(--primary-white-color);  
     letter-spacing: 0.06em;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.6;
     
     text-transform: uppercase;
     
-    /* width: 100%; */
+    width: 100%; 
+
 
     margin: auto;
     margin-bottom: 30px;
@@ -221,21 +248,29 @@ h1 {
     
 } 
 
-/* Overlay */
+/*----------  Overlay -----------*/
 .overlay{
-    height: 600px;
-    max-width: 1600px;
+    height: 400px;
+    max-width: 480px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)),url(../images/header.jpg);
+    background-image: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)),url(../images/header-mobile.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
     background-color:#C4C4C4; 
 }
 
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .overlay {
+    background-image: linear-gradient(rgba(47,48,58,0.4),rgba(47,48,58,0.4)),url(../images/header-mob-2x.jpg);
+  }
+}
 
-/*Section*/
+
+/*-----------  Section  ------------*/
 
 .visually-hidden {
     
@@ -321,7 +356,7 @@ h1 {
     background-color: var(--primary-white-color);
 }
 
-/* Позиціонування надпису на фото */
+/*------------  Позиціонування надпису на фото  -----------*/
 
 .img-work{
     position: relative;
@@ -347,7 +382,7 @@ h1 {
     align-items: center;
 }
 
-/* Векторні зображеня другої секції */
+/*------------- Векторні зображеня другої секції -------------*/
 
 .icons{
     width: 100%;
@@ -366,7 +401,7 @@ h1 {
 }
 
 
-/* Наша команда */
+/*------------- Наша команда --------------*/
 
 .team{
     background-color: var(--background-our-team);
@@ -436,7 +471,7 @@ h1 {
     
 }
 
-/* Постійні клієнти */
+/*-------------  Постійні клієнти ---------------*/
 
  .clients-list{
     list-style: none;
@@ -447,8 +482,7 @@ h1 {
     padding: 0;
     justify-content: center;
 
-    width: calc( 100% - 30px )/2;
-     
+    
 } 
 
 .clients-item{
@@ -457,7 +491,7 @@ h1 {
     border: 1px solid #AFB1B8 ;
     border-radius: 4px; 
 
-    width: calc( 100% - 30px )/2;
+    width: calc(( 100% - 30px ) / 2);
    
 }
 
@@ -484,7 +518,7 @@ h1 {
 }
 
 
-/*Footer*/
+/*--------------  Footer  ------------------*/
 
 .footer{
     color: var(--primary-white-color);
@@ -537,7 +571,7 @@ h1 {
     padding-top: 20px;
 }
 
-/* Socials in footer*/
+/*-------------- Socials in footer  ----------------*/
 
 .social{
 margin-left: 92px;
@@ -593,7 +627,7 @@ margin-top: 12px;
 
 
 
-/* Стилі для портфоліо */
+/*----------------  Стилі для портфоліо  -----------------*/
 
 .portfolio .btn{
     font-family: 'Roboto', sans-serif;
@@ -672,7 +706,7 @@ margin-top: 12px;
 } 
 
 
- /* Overlay для карток портфоліо */
+ /*--------------- Overlay для карток портфоліо ----------------*/
 
  .img-overlay{
     position: relative;
@@ -727,7 +761,7 @@ margin-top: 12px;
     letter-spacing: 0.03em;
 }
 
-/* Блокова модель */
+/*---------------  Блокова модель ----------------*/
 .container{
     margin-left: auto;
     margin-right: auto;
@@ -756,23 +790,8 @@ element.style{
     text-align: center;
 }
 
-.h1,
-h2,
-h3,
-h4,
-p {
-	margin: 0;
-}
 
-
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-
-}
-
-/*  МОДАЛЬНЕ ВІКНО*/
+/*------------------  МОДАЛЬНЕ ВІКНО  ----------------*/
 
 .backdrop{
     position: fixed;
@@ -852,7 +871,7 @@ img {
     fill: var(--accent-color);
 }
 
-/* Form */
+/*------------------   Form   -------------------*/
 
 .modal-title{
     text-align: center;
@@ -990,7 +1009,7 @@ img {
 }
 
 
-/* E-MAIL IN FOOTER */
+/*-------------------  E-MAIL IN FOOTER  ---------------------*/
 
 .form-footer{
     display: flex;

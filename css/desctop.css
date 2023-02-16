@@ -13,18 +13,24 @@
         padding-bottom: 94px;
     }
 
+    /*------- Header -------*/
+
+    /*--------------------  Connect-nav  -------------------- */
+.connect-nav{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    justify-content: center;
+}
+
     /*------- Hero -------*/
 .hero{
     padding: 200px 0;
     height: 600px;
 }
 
-h1 {   
-    font-size: 44px;
-    line-height: 1.36;
-    width: 696px;
-    
-}
+
+
 
     /* ------- Прихований заголовок ------- */
     .text{
