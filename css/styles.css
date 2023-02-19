@@ -54,7 +54,7 @@ img {
     padding: 0;
     margin: 0;
     list-style: none;
-    
+    text-decoration: none;
      /* display: flex;   */
 }
 
@@ -1075,5 +1075,133 @@ element.style{
     
     
     
+}
+ /* ------------  МОДАЛЬНЕ ВІКНО ДЛЯ МОБІЛЬНОЇ ВЕРСІІ  ----------- */
+
+ 
+
+ .menu-open-bth{
+    display: block;
+    margin-left: auto;
+    border: none;
+    padding: 0;
+    background-color: #ffffff;
+ }
+
+ .mob-menu {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--primary-white-color);
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+
+.mob-menu> .container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bth-mob-close {
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    top: 0;
+    right: 0;
+    height: 19px;
+    width: 19px;
+    background-color: var(--primary-white-color);
+    border: none;
+    padding: 0;
+
+    cursor: pointer;
+
+}
+
+.bth-mob-close:hover,
+.bth-mob-close:focus{
+    fill: var(--accent-color);
+}
+
+.mob-menu-link{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height:calc(47 / 40);
+letter-spacing: 0.02em;
+text-decoration: none;
+color: #212121;
+
+margin-left: 25px;
+
+}
+
+.mob-menu-list .mob-menu-link:hover,
+.mob-menu-list .mob-menu-link:focus{
+    color: var(--accent-color); 
+}
+
+
+
+.mob-menu-item:not(:last-child) {
+    margin-bottom: 32px;
+
+}
+
+
+.mob-menu-tel {
+font-weight: 500;
+font-size: 30px;
+line-height:calc(40 / 34);
+letter-spacing: 0.02em;
+
+color: #2196F3;
+text-decoration: none;
+
+
+}
+
+.mob-menu-email {
+font-weight: 500;
+font-size: 24px;
+line-height: calc(28 / 24);
+letter-spacing: 0.02em;
+
+color: #757575;
+text-decoration: none;
+
+}
+
+.list-mobile-tel{
+    margin-bottom: 32px;
+}
+
+.list-mobile-email{
+    margin-bottom: 64px;
+}
+
+.mob-menu-social{
+font-weight: 500;
+font-size: 18px;
+line-height: calc(22 / 12);
+letter-spacing: 0.02em;
+
+color: #2196F3;
+text-decoration: none;
+
+}
+
+.mob-menu-social:not(:last-child){
+    margin-right: 20px;
+}
+
+.container-mob-menu{
+    margin-left: 25px;
+    margin-bottom: 27px;
 }
 
