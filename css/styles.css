@@ -1078,7 +1078,7 @@ element.style{
 }
  /* ------------  МОДАЛЬНЕ ВІКНО ДЛЯ МОБІЛЬНОЇ ВЕРСІІ  ----------- */
 
- 
+  
 
  .menu-open-bth{
     display: block;
@@ -1097,6 +1097,7 @@ element.style{
     background-color: var(--primary-white-color);
     padding-top: 21px;
     padding-bottom: 21px;
+    
 }
 
 .mob-menu> .container{
