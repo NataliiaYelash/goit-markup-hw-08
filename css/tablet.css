@@ -6,7 +6,9 @@
 
     /*------- Header -------*/
 
-
+.menu-open-bth{
+    display: none;
+}
 
     /*------------  Site nav  -------------*/
 
@@ -21,10 +23,10 @@
 } 
 
 
-.site-nav .item +.item,
+/* .site-nav .item +.item,
 .connect-nav .item +.item{
     margin-left: 50px;
-}
+} */
 
 .site-nav .link{
     color: var(--primary-black-color);
@@ -63,6 +65,9 @@
 
 
 
+
+
+
 /*--------------------  Connect-nav  -------------------- */
 .connect-nav{
     display: flex;
@@ -80,8 +85,6 @@
     font-size: 14px;
     line-height: 1.14;
       
-    padding-top: 32px;
-    padding-bottom: 32px;
 
 }
 
@@ -101,6 +104,11 @@
     fill: currentColor;
 }
 
+.header-contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
 
 
@@ -182,3 +190,6 @@ h1 {
         
     
 }
+
+ 
+

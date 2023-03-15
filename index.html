@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="./css/tablet.css">
     <link rel="stylesheet" href="./css/desctop.css">
   </head>
-  <body>
+  <body class="no-scroll">
     <!--Шапка сторінки-->
     
     <header class="header border">
@@ -27,7 +27,10 @@
                <li class="item"><a href="" class="link" >Контакти</a></li>
               </ul>
           </nav>
-              <ul class="list connect-nav " >
+            
+              <ul class="list connect-nav" >
+                <div class="header-contacts">
+
                 <li class="item">
                   <a href="mailto:info@devstudio.com" class="link">
                     <svg class="header-contact-icon" width="16" height="12">
@@ -42,26 +45,27 @@
                   </svg> 
                     +38 096 111 11 11</a>
                 </li>
+                </div>
               </ul>  
+            
+
           <button 
-          js-open-menu
             type="button" 
-            class="menu-open-bth is-open">
+            class="menu-open-bth js-open-menu">
             <svg class="" 
               width="40" 
               height="40"
               aria-label="Переключатель мобильного меню">
-              <use href="./images/icons.svg#icon-menu_40px"></use>
+              <use href="./images/icons.svg#icon-burger-menu"></use>
           </svg>
           </button>
         </div>
         <!-- ---------МЕНЮ МОБІЛЬНОГО МОДАЛЬНОГО ВІКНА------ -->
-        <div js-menu-container class="mob-menu is-hidden">
+        <div  class="mob-menu js-menu-container">
           <div class="container">
             <div>
               <button 
-              js-close-menu
-              class="bth-mob-close" 
+              class="bth-mob-close js-close-menu" 
               type="button">
                 <svg class="svg-close" width="11" height="11">
                   <use href="./images/icons.svg#icon-Vector"></use>
