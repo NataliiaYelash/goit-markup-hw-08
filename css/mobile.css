@@ -5,9 +5,7 @@
     } 
     /*------- Header -------*/
 
-    .modal-container{
-        transform: translateX(-50%) scale(1);
-    }
+
 
     /*------- Hero -------*/
 .hero{
@@ -100,6 +98,19 @@ h1 {
         width: 210px;}
 }
 
+/* ------------------------- FOOTER -------------------------------- */
 
-/* ----------------МОДАЛЬНЕ ВІКНО ДЛЯ ЗАМОВЛЕННЯ------------------ */
+@media screen and (max-width:1199px){
+    .appeal{
+        text-align: center;
+    } 
 
+    /* .footer-email{
+        display: flex;
+        flex-wrap: wrap;
+    } */
+
+    .form-footer-input{
+        margin-bottom: 20px;
+    }
+}

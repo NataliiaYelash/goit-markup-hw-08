@@ -20,17 +20,17 @@
         gap: 40px;
     }
     /*--------------------  Connect-nav  -------------------- */
-.connect-nav{
-    display: flex;
-    margin-left: auto;
-    align-items: center;
-    justify-content: center;
+    .connect-nav{
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        justify-content: center;
 }
 
     /*------- Hero -------*/
-.hero{
-    padding: 200px 0;
-    height: 600px;
+    .hero{
+        padding: 200px 0;
+        height: 600px;
 }
 
 
@@ -47,26 +47,25 @@
 
     /* ------- Векторні зображеня другої секції ------- */
 
-.icons{
-    width: 270px;
-    height: 120px;
-    display: flex;
-    content: "";
-    background-color: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-    justify-content: center;
-    align-items: center;
+    .icons{
+        width: 270px;
+        height: 120px;
+        display: flex;
+        content: "";
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
 } 
 
    /* -------Чим ми займаємся -------*/
 
    .list-work{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    
-    display: flex;   
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;   
 }
 
    /* -------Наша команда------- */
@@ -89,22 +88,45 @@
 .clients-item{
     width: 170px;}
 
-    .clients-list{
-        list-style: none;
-        display: flex;
-        gap: 30px;
-        padding: 0;
-        justify-content: center;
+.clients-list{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    justify-content: center;
            
     }
 
 }
 
 
-
+/* ----------------------FOOTER--------------------------- */
 
 @media screen and (max-width:1200px){
     .section-work{
     display: none;
     }
+}
+
+@media screen and (min-width:1200px){
+    .form-footer-input{
+        width: 358px;
+        height: 50px;
+        margin-bottom: 0;
+        margin-right: 12px;
+    } 
+
+}
+
+@media screen and (min-width:1200px){
+.footer-container
+{
+    gap: 92px;
+}
+}
+
+@media screen and (min-width:1200px){
+    .form-footer{
+        display: flex;
+    } 
 }
