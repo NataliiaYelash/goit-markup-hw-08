@@ -119,9 +119,9 @@
 }
 
 @media screen and (min-width:1200px){
-.footer-container
+    .footer-container
 {
-    gap: 92px;
+        gap: 92px;
 }
 }
 

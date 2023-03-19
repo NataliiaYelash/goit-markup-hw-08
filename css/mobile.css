@@ -3,9 +3,6 @@
         max-width: 480px;
        
     } 
-    /*------- Header -------*/
-
-
 
     /*------- Hero -------*/
 .hero{
@@ -36,9 +33,6 @@ h1 {
 }
 
 
-
-
-
     /*------- Прихований заголовок -------*/
     .text{
         width: 100%;
@@ -67,8 +61,6 @@ h1 {
         padding: 0;
     }
 
-    
-    
 
     @media screen and (max-width: 767px){
         .img-photo{
@@ -104,11 +96,6 @@ h1 {
     .appeal{
         text-align: center;
     } 
-
-    /* .footer-email{
-        display: flex;
-        flex-wrap: wrap;
-    } */
 
     .form-footer-input{
         margin-bottom: 20px;

@@ -1012,8 +1012,8 @@ element.style{
 }
 
 
-/*-------------------  E-MAIL IN FOOTER  ---------------------*/
-/* -------------СТИЛІ ДЛЯ МОБІЛЬНОЇ ВЕРСІІ-------------------- */
+/*--------- E-MAIL IN FOOTER СТИЛІ ДЛЯ МОБІЛЬНОЇ ВЕРСІІ--------- */
+
 @media screen and (max-width: 1199px){
     .footer-container{
     text-align: center;
@@ -1029,10 +1029,6 @@ element.style{
 }
 
 
-.form-footer{
-
-}
-
 .social{
     margin: 0;
 }
@@ -1044,13 +1040,11 @@ element.style{
 
 }
 
-.form-footer-btn{
-    
-}
 /* ---------------------------------- */
-   .form-footer{
-    flex-wrap: wrap;
-    margin-top: 20px;
+
+.form-footer{
+        flex-wrap: wrap;
+        margin-top: 20px;
 } 
 
 
